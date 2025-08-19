@@ -1,0 +1,15 @@
+# Ignore kubeseal binary and tarball
+kubeseal
+kubeseal-*.tar.gz
+
+# Ignore raw Kubernetes secrets (keep only sealed secrets)
+mongo-creds-k8s-secret.yml
+
+# Ignore controller certificates (auto-generated)
+sealed-publicsecrets.crt
+sealed-secrets-solar.yaml
+# Ignore system/editor junk
+*.swp
+*.tmp
+*.log
+.DS_Store
