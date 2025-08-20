@@ -16,7 +16,7 @@ spec:
         app: solar-system
     spec:
       containers:
-      - image: mohamed710/solar-system-gitea:8899d86b44cf59f54d29cb672367aeb0536dae0b
+      - image: mohamed710/solar-system-gitea:234a961a72ecd939e0936d73a3996cd8f778c93f
         name: solar-system
         imagePullPolicy: Always
         ports: 
